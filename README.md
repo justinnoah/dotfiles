@@ -2,10 +2,11 @@ These are my config files
 =========================
 
 Currently:
-    .i3/config
-    .screenrc
-    .vimrc
-    .zshrc
+
+* .i3/config
+* .screenrc
+* .vimrc
+* .zshrc
 
 .vimrc
 ------
