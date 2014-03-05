@@ -22,7 +22,7 @@ font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec xterm
+bindsym $mod+Return exec urxvtc -fg White -bg Black
 
 # kill focused window
 bindsym $mod+Shift+apostrophe kill
@@ -168,5 +168,6 @@ new_window none
 new_float 1pixel
 
 exec compton --config ~/.config/compton.cfg -b
+exec urxvtd --quiet --opendisplay --fork
 exec setxkbmap dvorak
 exec feh --bg-fill ~/Pictures/bg.jpg
