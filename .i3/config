@@ -167,5 +167,6 @@ bar {
 new_window none
 new_float 1pixel
 
+exec compton --config ~/.config/compton.cfg -b
 exec setxkbmap dvorak
 exec feh --bg-fill ~/Pictures/bg.jpg
