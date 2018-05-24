@@ -176,5 +176,6 @@ bar {
 }
 
 exec setxkbmap dvorak
+exec feh --bg-fill $HOME/Pictures/rainbow_splatter.png
 exec --no-startup-id nm-applet
 exec keepassxc
