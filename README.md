@@ -1,21 +1,12 @@
 These are my config files
 =========================
 
-Currently:
+Current Application Configuration:
+- i3
+- gentoo (world file and HPPavillionG6 kernel config)
+- screen
+- vim
+- zsh
 
-* .i3/config
-* .screenrc
-* .vimrc
-* .zshrc
-
-.vimrc
-------
-
-colorscheme located at:
-    https://raw2.github.com/junegunn/seoul256.vim/master/colors/seoul256.vim
-
-.i3/config
-----------
-
-background image located at:
-    http://i.imgur.com/3iXilAx.png
+Also included:
+- Pictures folder for background image
